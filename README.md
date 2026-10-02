@@ -1,5 +1,7 @@
 # Terminal Alien Invader 2
-This project is inspired by the arcade game called "Space Invaders", released in 1978.
+This game is inspired by the arcade game called "Space Invaders", released in 1978.
+
+If you just want to play the game, run the exe file in dist/TerminalAlienInvader2.exe
 
 ![gameplay.gif](README_assets/gameplay.gif)
 
@@ -25,7 +27,15 @@ From the project folder:
 ```
 python main.py
 ```
-or `python -m terminal_alien_invader`. If launched from an IDE's built-in terminal, the game opens itself in a new console window.
+or `python -m terminal_alien_invader_2`. If launched from an IDE's built-in terminal, the game opens itself in a new console window.
+
+## Building an exe
+The game can be packaged into a single `.exe` that runs without Python installed, using [PyInstaller](https://pyinstaller.org):
+```
+pip install pyinstaller
+python -m PyInstaller --onefile --console --clean --name TerminalAlienInvader2 --specpath build main.py
+```
+The exe is written to `dist\TerminalAlienInvader2.exe`. Windows SmartScreen may warn about it the first time it is run, since it is not code-signed.
 
 ## Controls
 | Key | Action |
@@ -39,7 +49,7 @@ Your ship fires automatically. When a round ends (GAME OVER or YOU WIN), a new r
 ## Project Structure
 ```
 main.py                  Entry point
-terminal_alien_invader/
+terminal_alien_invader_2/
 ├── config.py            Every fixed setting: colours, sizes, timings, ship stats
 ├── state.py             GameState: everything that changes during a round
 ├── game.py              Game loop, update order, starting and ending rounds

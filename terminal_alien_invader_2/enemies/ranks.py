@@ -2,7 +2,7 @@
 import random
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_1,
     ENEMY_1_SPAWN_CHANCE,
     ENEMY_MAX_HEALTHS,
@@ -17,8 +17,8 @@ from terminal_alien_invader.config import (
     MAIN_DISPLAY_START_X,
     XCELLS,
 )
-from terminal_alien_invader.enemies.bosses import spawn_bosses
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.enemies.bosses import spawn_bosses
+from terminal_alien_invader_2.state import state
 
 
 def spawn_enemy():

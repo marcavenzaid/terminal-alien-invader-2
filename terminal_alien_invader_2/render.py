@@ -1,5 +1,5 @@
 """Drawing the world and the left display to the terminal."""
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     COLORS,
     DISPLAY_BORDER,
     ENEMY_RED_BOSS,
@@ -11,8 +11,8 @@ from terminal_alien_invader.config import (
     XCELLS,
     YCELLS,
 )
-from terminal_alien_invader.console import draw_at, erase_at
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.console import draw_at, erase_at
+from terminal_alien_invader_2.state import state
 
 
 def render_world():

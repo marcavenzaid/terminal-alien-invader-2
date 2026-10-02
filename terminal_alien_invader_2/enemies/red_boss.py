@@ -2,7 +2,7 @@
 import random
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_RED_BOSS,
     ENEMY_RED_BOSS_FRENZY_MODE_CHANGE_DIRECTION_INTERVAL,
     ENEMY_RED_BOSS_FRENZY_MODE_COLORS,
@@ -17,9 +17,9 @@ from terminal_alien_invader.config import (
     ENEMY_ZONE_MIN_X,
     ENEMY_ZONE_MIN_Y,
 )
-from terminal_alien_invader.enemies.attack import random_attack_delay
-from terminal_alien_invader.enemies.bosses import boss_barrier_stands, carry_enemy_boss, enemy_boss_move_interval
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.enemies.attack import random_attack_delay
+from terminal_alien_invader_2.enemies.bosses import boss_barrier_stands, carry_enemy_boss, enemy_boss_move_interval
+from terminal_alien_invader_2.state import state
 
 
 def update_enemy_red_boss_move_interval():

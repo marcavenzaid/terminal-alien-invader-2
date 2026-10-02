@@ -6,7 +6,7 @@ written in, so state split across modules that way would drift apart.
 """
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_RED_BOSS_MOVE_INTERVAL_RANGE,
     ENEMY_RANKS_NUMBER_ROWS,
     PLAYER_HEALTH_MAX,

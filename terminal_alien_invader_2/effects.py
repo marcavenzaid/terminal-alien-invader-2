@@ -1,11 +1,11 @@
 """The short-lived marks left by explosions and by shots striking their target."""
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     PLAYER_PROJECTILE_EXPLOSION_EFFECT,
     PLAYER_PROJECTILE_EXPLOSION_EFFECT_DURATION,
 )
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.state import state
 
 
 def show_player_projectile_explosion_effect(struck_x, struck_y, now):

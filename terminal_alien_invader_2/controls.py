@@ -2,7 +2,7 @@
 import ctypes
 import msvcrt
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ARROW_PREFIXES,
     KEY_ESCAPE,
     KEY_LEFT,
@@ -13,8 +13,8 @@ from terminal_alien_invader.config import (
     VK_LEFT,
     VK_RIGHT,
 )
-from terminal_alien_invader.player import move_player
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.player import move_player
+from terminal_alien_invader_2.state import state
 
 # Resolved once. restype keeps the SHORT the function returns from being widened
 # into a value whose extra sign bits could confuse the test in is_key_down.

@@ -1,7 +1,7 @@
 """The player's ship: spawning, steering, firing, and being destroyed."""
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     PLAYER_ATTACK_INTERVAL,
     PLAYER_HITBOX_RADIUS,
     PLAYER_MAX_X,
@@ -9,7 +9,7 @@ from terminal_alien_invader.config import (
     PLAYER_SHIP,
     PLAYER_SHIP_EXPLOSION,
 )
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.state import state
 
 
 def spawn_player():

@@ -2,7 +2,7 @@
 import random
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_ATTACK_INTERVAL_RANGES,
     ENEMY_RED_BOSS,
     ENEMY_RED_BOSS_FRENZY_MODE_ATTACK_INTERVAL,
@@ -15,8 +15,8 @@ from terminal_alien_invader.config import (
     XCELLS,
     YCELLS,
 )
-from terminal_alien_invader.enemies.bosses import boss_barrier_stands
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.enemies.bosses import boss_barrier_stands
+from terminal_alien_invader_2.state import state
 
 
 def enemy_auto_attack():

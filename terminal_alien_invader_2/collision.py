@@ -1,7 +1,7 @@
 """Checking every projectile against what it flew into."""
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_BOSS_BARRIER_CHARACTERS,
     ENEMY_BOSS_CHARACTERS,
     ENEMY_CHARACTERS,
@@ -12,10 +12,10 @@ from terminal_alien_invader.config import (
     PLAYER_PROJECTILE,
     PLAYER_PROJECTILE_DAMAGE,
 )
-from terminal_alien_invader.effects import show_player_projectile_explosion_effect
-from terminal_alien_invader.enemies.bosses import boss_hit_at
-from terminal_alien_invader.player import destroy_player, hits_player
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.effects import show_player_projectile_explosion_effect
+from terminal_alien_invader_2.enemies.bosses import boss_hit_at
+from terminal_alien_invader_2.player import destroy_player, hits_player
+from terminal_alien_invader_2.state import state
 
 
 def collision_detection():

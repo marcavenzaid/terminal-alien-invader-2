@@ -2,7 +2,7 @@
 import sys
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     COLORS,
     FRAMES_PER_SECOND,
     GAME_OVER,
@@ -12,22 +12,22 @@ from terminal_alien_invader.config import (
     YCELLS,
     YOU_WIN,
 )
-from terminal_alien_invader.collision import collision_detection
-from terminal_alien_invader.console import open_new_console, restore_console
-from terminal_alien_invader.controls import discard_keys, player_control
-from terminal_alien_invader.effects import clear_finished_explosions
-from terminal_alien_invader.enemies.attack import enemy_auto_attack, move_enemy_projectiles
-from terminal_alien_invader.enemies.bosses import move_enemy_bosses, update_boss_barriers
-from terminal_alien_invader.enemies.ranks import move_enemy_ranks, spawn_enemy
-from terminal_alien_invader.enemies.red_boss import (
+from terminal_alien_invader_2.collision import collision_detection
+from terminal_alien_invader_2.console import open_new_console, restore_console
+from terminal_alien_invader_2.controls import discard_keys, player_control
+from terminal_alien_invader_2.effects import clear_finished_explosions
+from terminal_alien_invader_2.enemies.attack import enemy_auto_attack, move_enemy_projectiles
+from terminal_alien_invader_2.enemies.bosses import move_enemy_bosses, update_boss_barriers
+from terminal_alien_invader_2.enemies.ranks import move_enemy_ranks, spawn_enemy
+from terminal_alien_invader_2.enemies.red_boss import (
     change_enemy_red_boss_direction,
     teleport_enemy_red_boss,
     update_enemy_red_boss_frenzy_mode,
     update_enemy_red_boss_move_interval,
 )
-from terminal_alien_invader.player import move_player_projectiles, player_auto_attack, spawn_player
-from terminal_alien_invader.render import render_world
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.player import move_player_projectiles, player_auto_attack, spawn_player
+from terminal_alien_invader_2.render import render_world
+from terminal_alien_invader_2.state import state
 
 
 def main():

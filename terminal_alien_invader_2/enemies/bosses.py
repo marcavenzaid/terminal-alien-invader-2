@@ -2,7 +2,7 @@
 import random
 import time
 
-from terminal_alien_invader.config import (
+from terminal_alien_invader_2.config import (
     ENEMY_RED_BOSS,
     ENEMY_RED_BOSS_FRENZY_MODE_MOVE_INTERVAL,
     ENEMY_BOSS_BARRIER_CHARACTERS,
@@ -19,7 +19,7 @@ from terminal_alien_invader.config import (
     MAIN_DISPLAY_WIDTH,
     XCELLS,
 )
-from terminal_alien_invader.state import state
+from terminal_alien_invader_2.state import state
 
 
 def spawn_bosses():
