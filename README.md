@@ -1,7 +1,7 @@
 # Terminal Alien Invader 2
 This game is inspired by the arcade game called "Space Invaders", released in 1978.
 
-If you just want to play the game, run the exe file in dist/TerminalAlienInvader2.exe
+If you just want to play the game, download [TerminalAlienInvader2.exe](https://github.com/marcavenzaid/terminal-alien-invader-2/releases/latest/download/TerminalAlienInvader2.exe) from the [latest release](https://github.com/marcavenzaid/terminal-alien-invader-2/releases/latest) and run it. No Python installation is needed (Windows only).
 
 ![gameplay.gif](README_assets/gameplay.gif)
 
